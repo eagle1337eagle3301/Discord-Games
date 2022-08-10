@@ -22,10 +22,10 @@ setuptools.setup(
     long_description=readme,
     long_description_content_type = "text/markdown",
     license="MIT",
-    url="https://github.com/Tom-the-Bomb/Discord-Games",
+    url="https://github.com/eagle37/Discord-Games",
     project_urls={
-        "Repository": "https://github.com/Tom-the-Bomb/Discord-Games",
-        "Issue tracker": "https://github.com/Tom-the-Bomb/Discord-Games/issues",
+        "Repository": "https://github.com/eagle37/Discord-Games",
+        "Issue tracker": "https://github.com/eagle37/Discord-Games/issues",
     },
     classifiers=[
         "Intended Audience :: Developers",
