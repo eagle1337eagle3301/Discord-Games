@@ -9,7 +9,8 @@ with open("README.md") as rm:
     readme = rm.read()
 
 with open('requirements.txt') as r:
-    requirements = r.read().splitlines()
+    requiremen = r.read().splitlines()
+    requirements.append(requiremen)
 
 with open("discord_games/__init__.py") as f:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read(), re.MULTILINE).group(1)
